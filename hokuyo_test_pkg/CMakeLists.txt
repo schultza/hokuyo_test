@@ -81,10 +81,12 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS include
-#  LIBRARIES hokuyo_test_pkg
+# LIBRARIES hokuyo_test_pkg
   CATKIN_DEPENDS roscpp rospy std_msgs
   DEPENDS system_lib
 )
+
+catkin_package()
 
 ###########
 ## Build ##
