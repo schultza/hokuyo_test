@@ -1,7 +1,0 @@
-<launch>
-  <node pkg="urg_node" type="urg_node" name="urg_node"> 
-   <param name="ip_address" value="192.168.0.10" />
-  </node>
-  <node pkg="hokuyo_test_pkg" type="hokuyo_test_package_node" name="hokuyo_test_pkg_node" output="screen">
-  </node>
-</launch>
